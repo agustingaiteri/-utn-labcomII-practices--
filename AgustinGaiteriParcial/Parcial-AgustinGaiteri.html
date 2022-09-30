@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Parcial-AgustinGaiteri.css">
+    <link rel="icon" href="img/form.png.png">
+    <img class="centrado" src= "img/logoutn.jpg"  alt="1366_2000" width="150" height="150" > 
+</head>
+<body>
+    <form  action="mailto:micorreo@servidor.com" method="post" enctype="text/plain">
+        <fieldset>
+        <legend>Formulario</legend>
+        <p>Nombre: <input type="text" name="nombre" placeholder="Ingresar su nombre" required>
+        <br>
+        <br>
+        Apellido: <input type="text" name="apellido" placeholder="Ingresar su apellido" required>
+        <br>
+        <br>
+        Fecha de Nacimiento: <input type="date" name="fecha" required >
+        <form action="linea"> 
+            Sexo:<br> 
+            <input type="radio" name="sexo">M 
+            <input type="radio" name="sexo">F 
+            <input type="radio" name="sexo">X
+            </form> 
+           <p>Email<input type="email" name="email_contacto" id="email_contacto" placeholder="Ingresar su email" required/>
+           <p>Contraseña<input type="password" name="contraseña_contacto" id="contraseña_contacto" minlength="8" placeholder="Ingresar su contraseña" required/>
+           <br>
+            <button>Enviar</button>
+            </p>
+            </form>
+    </body>
+    </html>
+   

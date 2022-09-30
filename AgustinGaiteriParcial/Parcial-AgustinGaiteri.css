@@ -1,0 +1,61 @@
+label {
+    display:block;
+    margin-top:1px;
+    letter-spacing:0.5px;
+}
+ 
+.principal {
+    display:block;
+    margin:0 auto;
+    width:510px;
+    color: #0a0000;
+    font-family:Arial;
+}
+ 
+form {
+    margin:0 auto;
+    text-align: center;
+    width:550px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+
+    width: 495px;
+    height: 40px;
+    background-color: rgb(78, 0, 0);
+    border:4px solid #f6f6f65d;
+    color:#ffffff;
+}
+
+input, textarea {
+    width:480px;
+    height:27px;
+    background:#030303;
+    border:4px solid #f6f6f65d;
+    padding:4px;
+    margin-top:5px;
+    font-size:15px;
+    color:#ffffff;
+}
+ 
+textarea {
+    height:300px;
+}
+ 
+#submit {
+    width:95px;
+    height:35px;
+    border:none;
+    margin-top:0px;
+    cursor:pointer;
+}
+.centrado{
+    margin: 10px auto;
+    display:block;
+    
+}
